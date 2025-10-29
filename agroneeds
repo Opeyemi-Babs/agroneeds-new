@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRONEEDS - Quality Farm Produce</title>
+    <style>
+        /* Basic Reset and Typography */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2e8b57; /* Sea Green - Agriculture color */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-size: 1.1em;
+        }
+
+        /* Main Content & Grid Layout */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .produce-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* Produce Card Styling */
+        .produce-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            padding: 20px;
+        }
+
+        .produce-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .produce-card h3 {
+            color: #2e8b57;
+            margin-top: 0;
+            font-size: 1.8em;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        .description {
+            font-size: 1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            min-height: 60px; /* Ensures card height consistency */
+        }
+
+        .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #d85c27; /* Warm Orange/Brown for price emphasis */
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed #ccc;
+            text-align: right;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AGRONEEDS</h1>
+        <p>Your Source for Premium Nigerian Farm Produce</p>
+    </header>
+
+    <div class="container">
+        <h2>Our Available Produce</h2>
+        <div class="produce-grid">
+
+            <div class="produce-card">
+                <h3>White Yam (Daga)</h3>
+                <p class="description">
+                    High-quality white yam tubers, harvested fresh from local farms. Known for its starchy texture, excellent taste, and versatility in Nigerian dishes like pounded yam and porridge.
+                </p>
+                <p class="price">₦ 1,500 / Tuber</p>
+            </div>
+
+            <div class="produce-card">
+                <h3>Fresh Red Tomatoes</h3>
+                <p class="description">
+                    Juicy, ripe, and deep red tomatoes. Hand-picked for the best flavor and shelf life. Ideal for making stews, sauces, and fresh salads. Available in baskets.
+                </p>
+                <p class="price">₦ 8,500 / Basket (Approx. 25kg)</p>
+            </div>
+
+            <div class="produce-card">
+                <h3>Cassava Roots</h3>
+                <p class="description">
+                    Disease-resistant cassava roots, perfect for processing into garri, fufu, or cassava flour. Excellent source of carbohydrates. Sold in heaps or bulk.
+                </p>
+                <p class="price">₦ 600 / kg</p>
+            </div>
+
+            <div class="produce-card">
+                <h3>Dried Yellow Maize</h3>
+                <p class="description">
+                    Premium quality dried yellow maize grains. Ideal for poultry feed production, corn flour, or making local staples like 'ogi' and 'pap'. Low moisture content.
+                </p>
+                <p class="price">₦ 28,000 / Bag (50kg)</p>
+            </div>
+
+            <div class="produce-card">
+                <h3>Scotch Bonnet Pepper (Ata rodo)</h3>
+                <p class="description">
+                    Extremely hot and aromatic scotch bonnet peppers. Essential ingredient for authentic Nigerian cooking. Available in small sacks or bags.
+                </p>
+                <p class="price">₦ 6,000 / Small Bag</p>
+            </div>
+
+            <div class="produce-card">
+                <h3>White Beans (Oloyin)</h3>
+                <p class="description">
+                    Sweet, fast-cooking Oloyin beans. Easy to digest and preferred for making Moin-Moin, Akara, and bean porridge. Cleaned and properly stored.
+                </p>
+                <p class="price">₦ 1,200 / Paint Bucket</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AGRONEEDS. All rights reserved. Prices are subject to market fluctuations.</p>
+    </footer>
+
+</body>
+</html>
